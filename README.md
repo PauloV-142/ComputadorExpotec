@@ -2,7 +2,7 @@
 
 ---
 
-## Para a sustentec de 2025
+## Para a Expotec de 2025
 ### Projeto feito para demonstrar as habilidades de PHP que aprendemos na escola (aham)
 
 Ainda não conheciamos o Git, então o processo de desenvolvimento foi leeento.
