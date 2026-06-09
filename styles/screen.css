@@ -1,0 +1,57 @@
+.screen {
+    /* My laptop ratio, but you can put 16 / 9 */
+    aspect-ratio: 16 / 9; 
+    border: solid 7px rgba(12, 12, 12, 1);
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    transition: all 1s ease-out;
+    background: linear-gradient(180deg, #222, #151515);
+    overflow: hidden;
+}
+
+.screen > .content {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.app-button {
+    background-color: #1515150e;
+    border: 2px solid rgba(0,0,0,.2) !important;
+    border-radius: 10px;
+    padding: 1rem;
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    backdrop-filter: blur(10px) !important;
+    transition: all 200ms ease-out;
+}
+
+.app-button:hover {
+    background-color: #222222aa;
+    cursor: pointer;
+}
+
+.app-button i {
+    transform: scale(2);
+}
+
+.content .toolbar {
+    /* position: absolute; */
+    bottom: 0px;
+}
+
+/* .toolbar {
+    grid-area: toolbar;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: -80px;
+} */
+

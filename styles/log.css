@@ -1,0 +1,48 @@
+:root {
+    --lightRgba: rgba(0,0,0,.2);
+    --darkRgba: rgba(0,0,0,.5);
+    --vratio: 16;
+    --hratio: 9;
+    --logGradient: 
+}
+
+.log-body {
+    width: 100dvw;
+    min-height: 50dvh;
+    position: static;
+    bottom: 0px;
+    
+    margin-top: 2rem;
+    padding: 1rem;
+
+    /* border: 2px black solid; */
+    color: white;
+}
+.log-content {
+    height: 100%;
+    padding: 1rem;
+
+    border: 2px black dotted;
+    border-radius: 1rem;
+
+    background-image: linear-gradient(180deg, var(--darkRgba), var(--lightRgba), var(--darkRgba));
+}
+
+.log-content li {
+    box-sizing: content-box;
+    border: 1px rgba(107, 107, 107, 0.2) solid;
+    margin-left: 1rem;
+}
+
+.log {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    max-height: 100%;
+}
+
+.white {color: white}
+.blue {color: #5a5aebff}
+.red {color: #e64c4cff}
+.green {color: #4eee7cff}
+.crimson {color: crimson}
+.yellow {color: #fff23a}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/computador.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/screen.css">
+    <link rel="stylesheet" href="styles/log.css">
+    <title>Computador</title>
+</head>
+<body>
+
+    <header class="align-items-center">
+        <div class="title d-flex justify-content-center"><h1>Computador</h1></div>
+        <div class="creation-options d-flex justify-content-center ">
+            <select class="text-center" name="brand" id="brand_selector">
+                <option value="Positivo">Positivo</option>
+                <option value="Acer">Acer</option>
+                <option value="Asus">Asus</option>
+                <option value="HP">HP</option>
+                <option value="Lenovo">Lenovo</option>
+            </select>
+            <button id="create_computer">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <button id="delete_computer">
+                <i class="fa-solid fa-trash"></i>
+            </button>
+        </div>
+    </header>
+
+    <!--I had to change some rgba colors so the background animation would work correctly-->
+
+    <main> 
+
+        <div class="monitor rotating-bg">
+            <div class="screen power-off shadow">
+                <!-- https://www.programiz.com/python-programming/online-compiler/ -->
+                <iframe id="" src="iframe_programiz" frameborder="0" class="d-none"></iframe>
+
+                <!-- Conteúdo da tela -->
+                <div class="content d-none flex-column justify-content-between">
+                    <!-- Apps -->
+                    <div class="bar d-flex justify-content-center align-items-center">
+                        <!-- <button class="app-button">
+                            <i class="fa-brands fa-python"></i>
+                        </button> -->
+                    </div>
+
+                    <!-- Toolbar -->
+                    <div class="toolbar d-flex justify-content-center align-items-center">
+                        <button class="app-button wallpaper-toggle mb-2">
+                            <i class="fa-solid fa-image"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="suporte shadow">
+                <i class="fa fa-gamepad"></i>
+            </div>
+            <div class="pezinho shadow">
+
+            </div>
+        </div>
+        <div class="computador rotating-bg shadow">
+
+            <button class="led">
+                <i class="fa-solid fa-power-off"></i>
+            </button>
+        </div>
+
+        <!-- Log -->
+    
+    </main>
+
+    <div class="log-body">
+        <h2>Log</h2>
+        <samp>
+        <div class="log-content">
+            <ol type="1" class="log">
+            </ol>
+        </div>
+        </samp>
+    </div>
+
+    <footer class="d-flex justify-content-around my-5 white fs-3 flex-row">
+        <p class="mx-5">Paulo Victor</p>
+        <p class="fs-3"> 2I3 </p>
+        <p class="mx-5">Kauã Padin</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/7f3e0bf563.js" crossorigin="anonymous"></script>
+    <script src="scripts/default.js"></script>
+    <script src="scripts/initialize.js"></script>
+    <script src="scripts/toggle.js"></script>
+    <script src="scripts/wallpaper.js"></script>
+    <script src="scripts/apps.js"></script>
+    <script src="scripts/log.js"></script>
+</body>
+</html>

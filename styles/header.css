@@ -1,0 +1,46 @@
+header {
+    /* position: absolute;*/
+    top: 0px;
+    background-image: linear-gradient(90deg ,#33333333, #555555bb);
+    height: 10dvh;
+    width: 100dvw;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .creation-options, header .title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-height: 85%;
+    gap: 10px;
+}
+
+header button {
+    width: 2.5rem;
+}
+
+header button i {
+    transform: scale(1.5);
+}
+
+header button, header select {
+    height: 2.5rem;
+    background-color: #00000083;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+footer {
+    background-image: linear-gradient(90deg ,#33333333, #555555bb);
+    width: 100%;
+    padding-top: 2%;
+}
