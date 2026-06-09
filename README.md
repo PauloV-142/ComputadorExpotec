@@ -12,6 +12,9 @@ Ainda não conheciamos o Git, então o processo de desenvolvimento foi leeento.
 ### Disclaimer:
 Fiz uma maçaroca com os fetchs ao PHP dentro do código dos botões. Depois entendi que não era pra usar fetch mas sim SSR nativo do php.
 
+Basicamente eu fiz uma API cujas respostas o cliente usa para modificar o site.
+O front end fica desacoplado do back end, assim como num aplicativo.
+
 Não olhe o código, não dá para entender nada 🫣
 
 ---
